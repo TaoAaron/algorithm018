@@ -2,6 +2,7 @@
   数组表示：整形数字
   末尾加1
   要考虑到进位造成的数组 size + 1
+  倒序遍历数组
 */
 
 int *plusOne(int *digits, int digitSize, int *returnSize){

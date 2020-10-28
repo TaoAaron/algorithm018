@@ -2,6 +2,8 @@
 将所有0移动到数组末尾
 要保持非0元素的相对顺序
 不能拷贝额外数组
+
+本地操作 维护非0元素位置
 */
 
 void moveZeros(int *nums, int numSize){
