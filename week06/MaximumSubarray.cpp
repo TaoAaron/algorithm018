@@ -11,6 +11,7 @@ dp = max(dp+nums[i],nums[i])
 using namespace std;
 
 class solution {
+public:
     int maxSubArray(vector<int>& nums) {
         if (nums.size() == 1) return nums[0];
 
