@@ -16,6 +16,7 @@ dp[j][j] 的状态可以直接使用gird
 using namespace std;
 
 class SOlution {
+public:
 int minPathSum(vector<vector<int>>& grid) {
     int row = grid.size();
     int cloumn = grid[0].size();
