@@ -4,7 +4,7 @@
 数组时间复杂  
 &emsp;repend	O(1)  
 &emsp;append	O(1)  
-&emsp;lookup	O(1)  
+&emsp;random access O(1)  
 &emsp;insert	O(n)  
 &emsp;delete	O(n)  
 
