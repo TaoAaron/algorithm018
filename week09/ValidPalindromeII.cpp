@@ -12,13 +12,14 @@ leetcode 680 验证回文字符串Ⅱ
 using namespace std;
 
 class Solution {
+public:
     bool isPalindrome(string s, int left, int right) {
 
         while (left < right) {
             if (s[left] != s[right]) return false;
-        }
-        left++;
-        right--;
+            left++;
+            right--;
+        }        
 
         return true;
     }
